@@ -31,7 +31,7 @@
         require("DataProvider.php");
         $masua = $_GET['masp'];
         $sql = "SELECT * FROM sua WHERE Ma_Sua = '$masua' ";
-        $result = DataProvider::ExecuteQuery($sql);
+        $result = DataProvider1::ExecuteQuery($sql);
         $row = mysqli_fetch_array($result);
         //
         $Hinh = $row['Hinh'];

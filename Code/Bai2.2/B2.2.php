@@ -4,9 +4,9 @@
         <?php
         require("DataProvider.php");
         $sql = 'SELECT * FROM khach_hang';
-        $result = DataProvider::ExecuteQuery($sql)
+        $result = DataProvider1::ExecuteQuery($sql)
         ?>
-        <h3 eilgn="center" style="color:blue">Thông tin khách hàg</h3>
+        <h3 eilgn="center" style="color:blue">Thông tin khách hàng</h3>
         <table border=1>
           <thead>
             <tr gbcolor="#e5c957">

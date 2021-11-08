@@ -72,6 +72,9 @@
                         case 9:
                             include "pages/FormConfig.php";
                             break;
+                         case 10:
+                            include "pages/SQLConfig.php";
+                            break;     
                         default:
                             include "pages/pError.php";
                             break;

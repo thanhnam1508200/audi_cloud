@@ -91,7 +91,20 @@
                                     <li><a href="index.php?a=9&id5=5">Bài 5</a></li>
                                     <li><a href="index.php?a=9&id5=6">Bài 6</a></li>
                                 </ul>
-                            </li>    
+                            </li> 
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="nav-label">BT SQL+PHP</span></a><br>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.php?a=10&id6=1">Bài 1</a></li>
+                                    <li><a href="index.php?a=10&id6=2">Bài 2</a></li>
+                                    <li><a href="index.php?a=10&id6=3">Bài 3</a></li>
+                                    <li><a href="index.php?a=10&id6=4">Bài 4</a></li>
+                                    <li><a href="index.php?a=10&id6=5">Bài 5</a></li>
+                                    <li><a href="index.php?a=10&id6=6">Bài 6</a></li>
+                                    <li><a href="index.php?a=10&id6=8">Bài 8</a></li>
+                                    <li><a href="index.php?a=10&id6=9">Bài 9</a></li>
+                                </ul>
+                            </li>       
                         </ul>
                     </li>
                 

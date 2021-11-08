@@ -4,9 +4,9 @@
 <center>
     <div class="container">
         <?php
-        require("DataProvider.php");
+        require("DataProvider1.php");
         $sql = 'SELECT * FROM hang_sua';
-        $result = DataProvider::ExecuteQuery($sql)
+        $result = DataProvider1::ExecuteQuery($sql)
         ?>
         <h3 eilgn="center" style="color:blue">Thông tin hãng sữa</h3>
         <table border=1>

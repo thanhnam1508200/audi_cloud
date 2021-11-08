@@ -1,7 +1,7 @@
         <?php
         require("DataProvider.php");
         $sql = 'SELECT * FROM khach_hang';
-        $result = DataProvider::ExecuteQuery($sql)
+        $result = DataProvider1::ExecuteQuery($sql)
         ?>
 
     <h2 style="text-transform:uppercase; color: rebeccapurple;
@@ -26,9 +26,9 @@
                         for($i = 0; $i < $result->field_count; $i++){
                             if($i == 2){
                                 if($row[$i] == 1){
-                                    echo "<td align='center'><img weight=30px height=30px src='../Bai2.3/Nam.jpg'/></td>";
+                                    echo "<td align='center'><img weight=30px height=30px src='../Code/Bai2.3/Nam.jpg'/></td>";
                                 }else {
-                                    echo "<td align='center'><img weight=30px height=30px src='../Bai2.3/Nu.jpg'/></td>";
+                                    echo "<td align='center'><img weight=30px height=30px src='../Code/Bai2.3/Nu.jpg'/></td>";
                                 }
                             }
                             else{

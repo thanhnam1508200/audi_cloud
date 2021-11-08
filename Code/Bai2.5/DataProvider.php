@@ -1,5 +1,5 @@
 <?php
-class DataProvider
+class DataProvider1
 {
     public static function ExecuteQuery($sql)
     {

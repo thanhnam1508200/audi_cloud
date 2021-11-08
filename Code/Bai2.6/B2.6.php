@@ -9,12 +9,13 @@
         <?php
         require("DataProvider.php");
         $sql = 'SELECT * FROM sua, hang_sua, loai_sua WHERE sua.Ma_hang_sua = hang_sua.Ma_hang_sua and sua.Ma_loai_sua = loai_sua.Ma_loai_sua'  ;
-        $result = DataProvider::ExecuteQuery($sql)
+        $result = DataProvider1::ExecuteQuery($sql)
         ?>
 
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <h1 style="color: #ff5200;font-weight: bold;border: 1px solid black;background: #ff760033;position: relative;top: 8px;padding: 10px;" class="text-center">THÔNG TIN CÁC SẢN PHẨM</h1>
+            
             <?php 
                 if($result->num_rows != 0){
                     while($row = $result->fetch_array()){
